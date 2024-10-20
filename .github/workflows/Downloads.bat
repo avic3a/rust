@@ -1,7 +1,7 @@
 @echo off
-curl -s -L -o login.py https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/login.py
-curl -s -L -o loop.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/loop.bat
-curl -s -L -o show.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/show.bat
+curl -s -L -o setup.py https://raw.githubusercontent.com/avic3a/rust/refs/heads/main/.github/workflows/setup.py
+curl -s -L -o loop.bat https://raw.githubusercontent.com/avic3a/rust/refs/heads/main/.github/workflows/loop.bat
+curl -s -L -o show.bat https://raw.githubusercontent.com/avic3a/rust/refs/heads/main/.github/workflows/show.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe" rustdesk.exe
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
